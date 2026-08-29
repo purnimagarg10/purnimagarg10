@@ -27,7 +27,7 @@ From architecting robust digital logic to ensuring precise timing in physical de
 * **Computer Architecture** — *RISC-V Core Design, Pipelined Datapaths & Bus Arbitration Logic*
 
 
-## 🛠 Engineering Toolbox
+## 🎛️ Hardware Arsenal
 
 ### 📟 Digital Design & EDA Tools
 `Verilog` • `SystemVerilog` • `Cadence Innovus` • `Synopsys Design Compiler` • `Cadence Virtuoso` • `Xilinx Vivado`
@@ -44,7 +44,7 @@ From architecting robust digital logic to ensuring precise timing in physical de
 ### 🌱 Currently Exploring
 `UVM` • `ASIC Design Flow` • `Static Timing Analysis (STA)` • `Formal Verification`
 
-## 🚀 Featured Builds
+## ⚙️ RTL & Silicon Subsystems
 
 ### [⚙️ Asynchronous Systems & Arbitration](https://github.com/purnimagarg10/Gray-Code-CDC-Async-FIFO-with-Interrupt-Engine)
 > Designed a multi-domain Asynchronous FIFO with Gray-code CDC and architected a 4-master Priority-Preemptive Round-Robin Bus Arbiter in Verilog.
@@ -55,14 +55,17 @@ From architecting robust digital logic to ensuring precise timing in physical de
 ### [💻 Hardware-Software Integration](https://github.com/purnimagarg10/UART-Implementation-using-Verilog-HDL-and-Microcontroller)
 > Bridged hardware simulation and embedded firmware by implementing a complete UART module utilizing both Verilog HDL and 8051 microcontroller programming.
 
-## ⚙️ System Debug Log
+## 💻 Developer Manifest
 
-```yaml
-[ Booting hardware_profile.v ]
-> Favorite_ISA      : "RV32I"
-> Last_Location     : "Analyzing critical paths in a synthesized netlist..."
-> Exception_Caught  : "Setup time violation. (Warning: frequency scaling required)"
-> Natural_Habitat   : [ "RTL", "Schematics", "Timing Reports" ]
-> Current_Obsession : "Developing robust verification environments for SoC designs."
-> Primary_Mission   : "Creating seamless hardware solutions from logic gates to final layouts."
-[ Log execution complete. ]
+```systemverilog
+/*******************************************************************************
+ * Module       : Purnima_Garg_Core.sv
+ * Role         : RTL Design & SoC Verification Engineer
+ *------------------------------------------------------------------------------
+ * Target ISA   : RISC-V (RV32I)
+ * Core Focus   : Asynchronous FIFOs • Bus Arbitration • CDC Verification
+ * Status       : Synthesized Cleanly — 0 Latch Inferences, 0 Setup Violations
+ * Philosophy   : "Precision logic gates today, production silicon tomorrow."
+ *******************************************************************************/
+```
+
